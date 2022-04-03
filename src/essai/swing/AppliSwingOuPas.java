@@ -88,7 +88,7 @@ public class AppliSwingOuPas extends JFrame{
 		
 		
 		contentPane.add(btnOui);
-		JButton btnNon = new JButton("Non !!!");
+		JButton btnNon = new JButton("Non !");
 		btnNon.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				lblMaisSi.setVisible(true);
